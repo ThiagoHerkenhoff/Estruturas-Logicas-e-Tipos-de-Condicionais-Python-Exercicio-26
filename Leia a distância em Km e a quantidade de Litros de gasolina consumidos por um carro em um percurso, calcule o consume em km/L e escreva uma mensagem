@@ -1,0 +1,17 @@
+# 26 - Leia a distância em Km e a quantidade de Litros de gasolina consumidos por um carro em um percurso,
+# calcule o consume em km/L e escreva uma mensagem de acordo com a tabela abaixo:
+# consumo menor que 8: Venda o carro!
+# consumo entre 8 e 12: Econômico!
+# consumo maior que 12: Super Econômico
+
+d = float(input("Informe a distância em Km percorrida: "))
+l = float(input("Informe o consumo em Litros: "))
+
+c = d / l
+
+if c < 8:
+    print("Venda o carro!")
+elif c >= 8 and c <= 12:
+    print("Econômico")
+else:
+    print("Super Econômico")
